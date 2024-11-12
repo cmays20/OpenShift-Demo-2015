@@ -23,4 +23,5 @@ patches:
       version: v1beta1
       kind: Gitlab
       name: gitlab
+      namespace: gitlab-system
     path: patch-gitlab-version.yaml
