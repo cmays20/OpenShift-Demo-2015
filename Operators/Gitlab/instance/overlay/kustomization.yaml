@@ -18,3 +18,9 @@ patches:
       kind: ConsoleLink
       name: gitlab
     path: patch-console-link.yaml
+  - target:
+      group: apps.gitlab.com
+      version: v1beta1
+      kind: Gitlab
+      name: gitlab
+    path: patch-gitlab-version.yaml
