@@ -21,7 +21,7 @@ patches:
   - target:
       group: apps.gitlab.com
       version: v1beta1
-      kind: Gitlab
+      kind: GitLab
       name: gitlab
       namespace: gitlab-system
     path: patch-gitlab-version.yaml
