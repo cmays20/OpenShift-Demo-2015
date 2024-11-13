@@ -13,16 +13,16 @@ spec:
       gitlab:
         webservice:
           ingress:
-            configureCertmanager: false
+            configureCertmanager: "false"
             tls:
               secretName: gitlab-tls
         kas:
           ingress:
-            configureCertmanager: false
+            configureCertmanager: "false"
             tls:
               secretName: kas-tls
         ingress:
-          configureCertmanager: false
+          configureCertmanager: "false"
           tls:
             secretName: registry-tls
       minio:
